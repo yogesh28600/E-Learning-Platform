@@ -234,7 +234,7 @@ public class Review
 }
 ```
 
-### Role Model (Optional)
+### Role Model
 In case you want to manage roles separately, though it's embedded in the User model in the example above.
 ```
 public class Role
