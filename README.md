@@ -106,7 +106,7 @@ The platform will follow a microservices architecture, where each core feature (
 ## Database Models
 ### User Model
 This model handles both learners and trainers since they share common attributes but differ in roles.
-'''
+```
 public class User
 {
     public Guid Id { get; set; }
@@ -118,7 +118,7 @@ public class User
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 }
-'''
+```
 - **Role**: Can be `Learner`, `Trainer`, or `Admin`.
 - **Email**: Unique constraint.
 
