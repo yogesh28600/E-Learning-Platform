@@ -1,4 +1,9 @@
 
+using CourseService.Context;
+using CourseService.Repositories.CoursesRepo;
+using CourseService.Repositories.ModulesRepo;
+using Microsoft.EntityFrameworkCore;
+
 namespace CourseService
 {
     public class Program
@@ -10,10 +15,13 @@ namespace CourseService
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            // Learn more about configuring Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddDbContext<CourseContext>(options=>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("CourseDb")));
+            builder.Services.AddScoped<ICourseRepo, CoursesRepo>();
+            builder.Services.AddScoped<IModulesRepo, ModulesRepo>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

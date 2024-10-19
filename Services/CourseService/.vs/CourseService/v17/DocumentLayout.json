@@ -1,12 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\CourseService\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\courseservice\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\dto\\moduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:dto\\moduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\models\\modulesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:models\\modulesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D477CC0-9AAC-4B84-82F0-99D7AAF9ABA0}|CourseService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T04:32:02.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModulesModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Models\\ModulesModel.cs",
+              "RelativeDocumentMoniker": "Models\\ModulesModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Models\\ModulesModel.cs",
+              "RelativeToolTip": "Models\\ModulesModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:13:00.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "Models\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Models\\CourseModel.cs",
+              "RelativeToolTip": "Models\\CourseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:56:34.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA1wGIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:54:13.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\DTO\\ModuleDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ModuleDTO.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\DTO\\ModuleDTO.cs",
+              "RelativeToolTip": "DTO\\ModuleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:51:37.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\DTO\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\CourseService\\DTO\\CourseDTO.cs",
+              "RelativeToolTip": "DTO\\CourseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:51:26.786Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
