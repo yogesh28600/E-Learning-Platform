@@ -1,4 +1,10 @@
 
+using EnrollmentService.Context;
+using EnrollmentService.Repositories.EnrollmentRepo;
+using EnrollmentService.Repositories.ProgressRepo;
+using EnrollmentService.Repositories.ReviewRepo;
+using Microsoft.EntityFrameworkCore;
+
 namespace EnrollmentService
 {
     public class Program
@@ -13,7 +19,11 @@ namespace EnrollmentService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddDbContext<EnrollmentDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("EnrollmentDb")));
+            builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
+            builder.Services.AddScoped<IProgressRepo, ProgressRepo>();
+            builder.Services.AddScoped<IReviewRepo, ReviewRepo>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
