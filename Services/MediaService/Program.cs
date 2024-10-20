@@ -1,4 +1,7 @@
 
+using MediaService.Models;
+using MediaService.Services;
+
 namespace MediaService
 {
     public class Program
@@ -13,7 +16,8 @@ namespace MediaService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.Configure<BlobStorageSettings>(builder.Configuration.GetSection("BlobStorage"));
+            builder.Services.AddSingleton<BlobService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
