@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CourseService.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("course-service/[controller]/[action]")]
     [ApiController]
     public class CourseController : ControllerBase
     {
@@ -34,7 +34,7 @@ namespace CourseService.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCourse(CourseDTO model)
         {
-            if (model.Title.Length < 1 || model.Price < 0 || model.TrainerId == Guid.Empty || model.Category.Length < 1 || model.Description.Length < 10)
+            if (model.Title == null || model.Price < 0 || model.TrainerId == Guid.Empty || model.Category == null || model.Description == null || model.Thumbnail == null)
                 return BadRequest();
             CourseModel courseModel = new CourseModel()
             {
@@ -42,6 +42,7 @@ namespace CourseService.Controllers
                 Description = model.Description,
                 TrainerId = model.TrainerId,
                 Category = model.Category,
+                Thumbnail = model.Thumbnail,
                 Price = model.Price,
                 CreatedAt = DateTime.UtcNow
             };
@@ -64,6 +65,7 @@ namespace CourseService.Controllers
             courseModel.Description = model.Description ?? courseModel.Description;
             courseModel.Category = model.Category ?? courseModel.Category;
             courseModel.Price = model.Price !>1 ? model.Price : courseModel.Price;
+            courseModel.Thumbnail = model.Thumbnail ?? courseModel.Thumbnail;
             courseModel.UpdatedAt = DateTime.Now;
 
             var updatedCourseId = await _courseRepo.UpdateCourseAsync(courseModel);
@@ -136,7 +138,6 @@ namespace CourseService.Controllers
                 return BadRequest();
             return Ok(module);
         }
-
 
     }
 }

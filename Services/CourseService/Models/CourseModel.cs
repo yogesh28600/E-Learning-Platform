@@ -10,6 +10,8 @@ namespace CourseService.Models
         [Required]
         public string Description { get; set; }
         [Required]
+        public string Thumbnail { get; set; }
+        [Required]
         public Guid TrainerId { get; set; }  // Foreign key to User (Trainer)
         [Required]
         public string Category { get; set; }

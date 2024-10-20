@@ -6,7 +6,7 @@ using UserService.Repositories.UsersRepo;
 
 namespace UserService.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("user-service/[controller]/[action]")]
     [ApiController]
     public class UserController : ControllerBase
     {

@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace CourseService.DTO
 {
     public class ModuleDTO
