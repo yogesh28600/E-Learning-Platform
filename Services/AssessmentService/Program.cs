@@ -1,4 +1,9 @@
 
+using AssessmentService.Context;
+using AssessmentService.Repositories.QuestionsRepo;
+using AssessmentService.Repositories.QuizRepo;
+using Microsoft.EntityFrameworkCore;
+
 namespace AssessmentService
 {
     public class Program
@@ -13,7 +18,10 @@ namespace AssessmentService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddDbContext<AssessmentContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("AssseessmentDb")));
+            builder.Services.AddScoped<IQuestionsRepo, QuestionsRepo>();
+            builder.Services.AddScoped<IQuizRepo, QuizRepo>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
