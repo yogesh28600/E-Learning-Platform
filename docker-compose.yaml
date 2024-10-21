@@ -1,0 +1,72 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "nyk@28600"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+  courseservice:
+    build:
+      context: ./Services/CourseService
+      dockerfile: Dockerfile
+    container_name: course-api
+    ports:
+      - "5000:8080"
+    depends_on:
+      - sqlserver
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
+  userservice:
+    build:
+      context: ./Services/UserService
+      dockerfile: Dockerfile
+    container_name: user-api
+    ports:
+      - "5001:8080"
+    depends_on:
+      - sqlserver
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
+  Mediaservice:
+    build:
+      context: ./Services/MediaService
+      dockerfile: Dockerfile
+    container_name: media-api
+    ports:
+      - "5002:8080"
+    depends_on:
+      - sqlserver
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
+  enrollmentservice:
+    build:
+      context: ./Services/EnrollmentService
+      dockerfile: Dockerfile
+    container_name: enrollment-api
+    ports:
+      - "5003:8080"
+    depends_on:
+      - sqlserver
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
+  assessmentservice:
+    build:
+      context: ./Services/AssessmentService
+      dockerfile: Dockerfile
+    container_name: assessment-api
+    ports:
+      - "5004:8080"
+    depends_on:
+      - sqlserver
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
+
+volumes:
+  sqlserverdata:
+    driver: local
