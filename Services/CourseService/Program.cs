@@ -21,6 +21,17 @@ namespace CourseService
             options.UseSqlite(builder.Configuration.GetConnectionString("CourseDb")));
             builder.Services.AddScoped<ICourseRepo, CoursesRepo>();
             builder.Services.AddScoped<IModulesRepo, ModulesRepo>();
+                        // Add CORS services to the container
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,7 +40,8 @@ namespace CourseService
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+                // Enable CORS
+            app.UseCors("AllowSpecificOrigins");
             app.UseAuthorization();
 
 

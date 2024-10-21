@@ -22,6 +22,16 @@ namespace AssessmentService
             options.UseSqlite(builder.Configuration.GetConnectionString("AssseessmentDb")));
             builder.Services.AddScoped<IQuestionsRepo, QuestionsRepo>();
             builder.Services.AddScoped<IQuizRepo, QuizRepo>();
+                        builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -30,7 +40,8 @@ namespace AssessmentService
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            // Enable CORS
+            app.UseCors("AllowSpecificOrigins");
             app.UseAuthorization();
 
 

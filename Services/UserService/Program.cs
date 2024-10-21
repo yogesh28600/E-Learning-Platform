@@ -20,6 +20,17 @@ namespace UserService
             builder.Services.AddDbContext<UserContext>(options =>
             options.UseSqlite(builder.Configuration.GetConnectionString("UsersDb")));
             builder.Services.AddScoped<IUsersRepo, UsersRepo>();
+            // Add CORS services to the container
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -28,7 +39,8 @@ namespace UserService
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+                // Enable CORS
+            app.UseCors("AllowSpecificOrigins");
             app.UseAuthorization();
 
 

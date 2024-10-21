@@ -24,6 +24,17 @@ namespace EnrollmentService
             builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
             builder.Services.AddScoped<IProgressRepo, ProgressRepo>();
             builder.Services.AddScoped<IReviewRepo, ReviewRepo>();
+                        // Add CORS services to the container
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -32,7 +43,7 @@ namespace EnrollmentService
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowSpecificOrigins");
             app.UseAuthorization();
 
 

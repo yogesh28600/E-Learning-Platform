@@ -33,7 +33,7 @@ services:
       - sqlserver
     environment:
       ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=CourseDb;User Id=sa;Password=nyk@28600;Trusted_Connection=False;MultipleActiveResultSets=true;"
-  Mediaservice:
+  mediaservice:
     build:
       context: ./Services/MediaService
       dockerfile: Dockerfile
