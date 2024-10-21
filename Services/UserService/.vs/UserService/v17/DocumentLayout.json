@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021022849_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241021022849_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021043322_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241021043322_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\context\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:context\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{189D4CE9-12D2-4BDC-A9C2-6386D4BBF805}|UserService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\repositories\\usersrepo\\usersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241021022849_init.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021022849_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241021022849_init.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021022849_init.cs",
-              "RelativeToolTip": "Migrations\\20241021022849_init.cs",
+              "Title": "20241021043322_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021043322_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241021043322_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Migrations\\20241021043322_init.cs",
+              "RelativeToolTip": "Migrations\\20241021043322_init.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T02:28:49.487Z",
+              "WhenOpened": "2024-10-21T04:33:22.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T04:32:29.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-21T04:31:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
@@ -67,11 +101,12 @@
               "RelativeToolTip": "DTO\\UserDTO.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwAsAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T05:53:10.089Z"
+              "WhenOpened": "2024-10-19T05:53:10.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -84,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IUsersRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Repositories\\UsersRepo\\IUsersRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\UsersRepo\\IUsersRepo.cs",
@@ -92,11 +127,12 @@
               "RelativeToolTip": "Repositories\\UsersRepo\\IUsersRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:09:09.861Z"
+              "WhenOpened": "2024-10-18T04:09:09.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UsersRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Repositories\\UsersRepo\\UsersRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\UsersRepo\\UsersRepo.cs",
@@ -104,23 +140,25 @@
               "RelativeToolTip": "Repositories\\UsersRepo\\UsersRepo.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowCkAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:08:51.381Z"
+              "WhenOpened": "2024-10-18T04:08:51.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBQAAABTAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:06:00.529Z"
+              "WhenOpened": "2024-10-18T04:06:00.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Context\\UserContext.cs",
               "RelativeDocumentMoniker": "Context\\UserContext.cs",
@@ -128,11 +166,12 @@
               "RelativeToolTip": "Context\\UserContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:59:08.548Z"
+              "WhenOpened": "2024-10-18T03:59:08.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\UserService\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Models\\UserModel.cs",
@@ -140,7 +179,8 @@
               "RelativeToolTip": "Models\\UserModel.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T03:55:59.764Z"
+              "WhenOpened": "2024-10-18T03:55:59.764Z",
+              "EditorCaption": ""
             }
           ]
         }

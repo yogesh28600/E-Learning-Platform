@@ -18,7 +18,7 @@ namespace UserService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<UserContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("UsersDb")));
+            options.UseSqlite(builder.Configuration.GetConnectionString("UsersDb")));
             builder.Services.AddScoped<IUsersRepo, UsersRepo>();
             var app = builder.Build();
 
