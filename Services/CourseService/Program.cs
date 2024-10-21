@@ -18,7 +18,7 @@ namespace CourseService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<CourseContext>(options=>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("CourseDb")));
+            options.UseSqlite(builder.Configuration.GetConnectionString("CourseDb")));
             builder.Services.AddScoped<ICourseRepo, CoursesRepo>();
             builder.Services.AddScoped<IModulesRepo, ModulesRepo>();
             var app = builder.Build();

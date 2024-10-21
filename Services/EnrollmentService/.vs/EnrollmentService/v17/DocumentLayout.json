@@ -3,11 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241021022554_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241021022554_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\enrollmentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:enrollmentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\enrollmentservice\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|c:\\users\\administrator\\desktop\\24nag2219_u08\\capstoneproject\\e-learning-platform\\services\\enrollmentservice\\migrations\\20241021043024_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:migrations\\20241021043024_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\AssessmentService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,41 +62,11 @@
       "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:repositories\\enrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\dto\\progressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:dto\\progressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\dto\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:dto\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\context\\enrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:context\\enrollmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\AssessmentService\\Context\\AssessmentContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\AssessmentService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\enrollmentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{316B6C37-94AA-4AE5-A7FB-22A47680F4C9}|EnrollmentService.csproj|solutionrelative:enrollmentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241018100513_Second_Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,24 +76,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241021022554_init.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241021022554_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241021022554_init.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241021022554_init.cs",
-              "RelativeToolTip": "Migrations\\20241021022554_init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "20241021043024_init.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241021043024_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241021043024_init.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241021043024_init.cs",
+              "RelativeToolTip": "Migrations\\20241021043024_init.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T02:25:54.375Z",
+              "WhenOpened": "2024-10-21T04:30:25.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IProgressRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\IProgressRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\IProgressRepo.cs",
@@ -120,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "IReviewRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\IReviewRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\IReviewRepo.cs",
@@ -132,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EnrollmentController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Controllers\\EnrollmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
@@ -140,12 +125,11 @@
               "RelativeToolTip": "Controllers\\EnrollmentController.cs",
               "ViewState": "AQIAAHIAAAAAAAAAAAAkwJ4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:33:38.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:33:38.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "Models\\Enrollment.cs",
@@ -157,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Progress.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Models\\Progress.cs",
               "RelativeDocumentMoniker": "Models\\Progress.cs",
@@ -169,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Models\\Review.cs",
               "RelativeDocumentMoniker": "Models\\Review.cs",
@@ -181,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ReviewRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\ReviewRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\ReviewRepo.cs",
@@ -193,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ProgressRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\ProgressRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\ProgressRepo.cs",
@@ -205,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IEnrollmentRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\IEnrollmentRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\IEnrollmentRepo.cs",
@@ -217,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "EnrollmentRepo.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Repositories\\EnrollmentRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\EnrollmentRepo.cs",
@@ -229,31 +213,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T06:44:37.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-18T08:21:06.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ReviewDTO.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\DTO\\ReviewDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ReviewDTO.cs",
@@ -265,43 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProgressDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\DTO\\ProgressDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\ProgressDTO.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\DTO\\ProgressDTO.cs",
-              "RelativeToolTip": "DTO\\ProgressDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:44:16.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EnrollmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\DTO\\EnrollmentDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\EnrollmentDTO.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\DTO\\EnrollmentDTO.cs",
-              "RelativeToolTip": "DTO\\EnrollmentDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:42:49.732Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "EnrollmentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Context\\EnrollmentDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\EnrollmentDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\Context\\EnrollmentDbContext.cs",
-              "RelativeToolTip": "Context\\EnrollmentDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:10:17.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "AssessmentContext.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\AssessmentService\\Context\\AssessmentContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\AssessmentService\\Context\\AssessmentContext.cs",
@@ -313,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\AssessmentService\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\AssessmentService\\Program.cs",
@@ -325,27 +273,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EnrollmentService",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentService.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\EnrollmentService.csproj",
               "RelativeDocumentMoniker": "EnrollmentService.csproj",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24NAG2219_U08\\CapstoneProject\\E-Learning-Platform\\Services\\EnrollmentService\\EnrollmentService.csproj",
               "RelativeToolTip": "EnrollmentService.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-19T06:35:32.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20241018100513_Second_Migration.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241018100513_Second_Migration.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241018100513_Second_Migration.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241018100513_Second_Migration.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\E-Learning-Platform\\Services\\EnrollmentService\\Migrations\\20241018100513_Second_Migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:05:14.082Z"
+              "WhenOpened": "2024-10-19T06:35:32.284Z",
+              "EditorCaption": ""
             }
           ]
         }

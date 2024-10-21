@@ -19,7 +19,7 @@ namespace AssessmentService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<AssessmentContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("AssseessmentDb")));
+            options.UseSqlite(builder.Configuration.GetConnectionString("AssseessmentDb")));
             builder.Services.AddScoped<IQuestionsRepo, QuestionsRepo>();
             builder.Services.AddScoped<IQuizRepo, QuizRepo>();
             var app = builder.Build();

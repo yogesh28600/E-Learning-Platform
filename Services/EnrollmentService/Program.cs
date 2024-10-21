@@ -20,7 +20,7 @@ namespace EnrollmentService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<EnrollmentDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("EnrollmentDb")));
+            options.UseSqlite(builder.Configuration.GetConnectionString("EnrollmentDb")));
             builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
             builder.Services.AddScoped<IProgressRepo, ProgressRepo>();
             builder.Services.AddScoped<IReviewRepo, ReviewRepo>();
