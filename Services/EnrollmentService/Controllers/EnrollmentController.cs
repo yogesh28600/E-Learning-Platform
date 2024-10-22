@@ -45,6 +45,7 @@ namespace EnrollmentService.Controllers
                 CourseId = model.CourseId,
                 AmountPaid = model.AmountPaid,
                 IsCompleted = model.IsCompleted,
+                EnrollmentDate = DateTime.UtcNow
             };
             var Enrollment = await _enrollmentRepo.CreateEnrollment(enrollment);
             return CreatedAtAction(nameof(CreateEnrollment), enrollment);

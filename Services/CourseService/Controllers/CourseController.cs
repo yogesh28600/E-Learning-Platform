@@ -23,7 +23,7 @@ namespace CourseService.Controllers
             var courses = await _courseRepo.GetCoursesAsync();
             return Ok(courses);
         }
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCourseById(Guid id)
         {
             var course = await _courseRepo.GetCourseAsync(id);
