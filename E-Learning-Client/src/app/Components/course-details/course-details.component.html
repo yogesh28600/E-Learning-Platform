@@ -1,4 +1,4 @@
-<div class="mt-40 p-5">
+<div class="mt-40 h-screen p-5">
   <h1 class="text-6xl font-bold border-b-2 border-gray-300 mb-5">
     Course Details
   </h1>
@@ -8,7 +8,7 @@
       <div class="bg-white shadow-md rounded-lg overflow-hidden mb-6 w-full">
         <!-- Course Thumbnail -->
         <img
-          class="w-full h-96 object-cover"
+          class="w-full h-[40rem] object-cover"
           [src]="course.thumbnail"
           [alt]="course.title"
         />
@@ -55,10 +55,16 @@
             <div class="w-full bg-gray-200 p-5 rounded-xl flex justify-between">
               <p>{{ module.title }}</p>
               <div class="space-x-3 flex">
-                <button class="bg-blue-400 px-5 py-2 rounded-xl cursor-pointer">
+                <a
+                  [routerLink]="['/edit-module', module.id]"
+                  class="bg-blue-400 px-5 py-2 rounded-xl cursor-pointer"
+                >
                   Edit
-                </button>
-                <button class="bg-red-500 px-5 py-2 rounded-xl cursor-pointer">
+                </a>
+                <button
+                  class="bg-red-500 px-5 py-2 rounded-xl cursor-pointer"
+                  (click)="deleteModule(module.id)"
+                >
                   Delete
                 </button>
               </div>

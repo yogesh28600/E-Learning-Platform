@@ -74,7 +74,7 @@ export class CourseService {
   }
 
   // Update a module
-  updateModule(module: ModuleDTO): Observable<any> {
+  updateModule(module: any): Observable<any> {
     return this.http.put<any>(`${this.baseUrl}/UpdateMoulue`, module, {
       headers: this.headers,
     });

@@ -20,6 +20,7 @@ import { BrowseCoursesComponent } from './Components/browse-courses/browse-cours
 import { EnrollCourseComponent } from './Components/enroll-course/enroll-course.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { PaymentCompleteComponent } from './Components/payment-complete/payment-complete.component';
+import { EditModuleComponent } from './Components/edit-module/edit-module.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { PaymentCompleteComponent } from './Components/payment-complete/payment-
     EnrollCourseComponent,
     NotFoundComponent,
     PaymentCompleteComponent,
+    EditModuleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule],
   providers: [provideHttpClient()],
