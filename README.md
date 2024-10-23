@@ -10,15 +10,12 @@ The E-Learning platform enables learners to enroll in courses, watch lectures, a
 - **Course Enrollment**: Learners can browse available courses, view course details, and enroll.
 - **Course Progress Tracking**: Track the progress of each course, including completed lectures and assessments.
 - **Watch Classes**: Stream or download pre-recorded lectures or live sessions.
-- **Assessments and Quizzes**: Participate in quizzes and assessments to test knowledge.
-- **Course Reviews**: Submit reviews or ratings for the courses they've completed.
 
 ### 2.2. Trainer Features
 - **Trainer Registration**: Trainers can sign up and manage their profile.
 - **Course Creation/Management**: Trainers can create, edit, and delete courses with multiple modules and lectures.
 - **Upload Course Material**: Upload videos, PDF materials, assignments, and quizzes.
 - **View Learner Progress**: Monitor the progress and performance of enrolled learners.
-- **Course Analytics**: View course engagement statistics, including enrollments and completion rates.
 
 ### 2.3. Admin Features
 - **User Management**: Admin can manage learners, trainers, and their roles.
@@ -26,8 +23,6 @@ The E-Learning platform enables learners to enroll in courses, watch lectures, a
 - **Platform Analytics**: View overall platform statistics like user growth, active users, and course performance.
 
 ## 3. Non-Functional Requirements
-- **Scalability**: The system should support thousands of concurrent users.
-- **Security**: Implement strong authentication, role-based access control, and secure data transmission.
 - **Performance**: API response times must be under 200ms for most actions.
 - **Reliability**: Ensure high availability of services with appropriate fault-tolerant mechanisms.
 - **Maintainability**: The codebase should be modular and follow best practices for microservices.
@@ -43,32 +38,28 @@ The platform will follow a microservices architecture, where each core feature (
 
 #### 2.1. User Service
 - **Responsibilities**: Manages user data (learners, trainers, and admins), authentication, and role management.
-- **Tech Stack**: .NET Core Web API, IdentityServer for authentication.
-- **Database**: SQL Server.
+- **Tech Stack**: .NET Core Web API.
+- **Database**: SQLLite.
 
 #### 2.2. Course Service
 - **Responsibilities**: Manages course creation, updates, deletion, and the storage of course content.
 - **Tech Stack**: .NET Core Web API.
-- **Database**: NoSQL (MongoDB) for storing course metadata and content.
+- **Database**: SQLLite.
 
 #### 2.3. Enrollment Service
 - **Responsibilities**: Handles learner enrollments, tracks progress, and manages enrollments.
 - **Tech Stack**: .NET Core Web API.
-- **Database**: SQL Server for tracking enrollments.
+- **Database**: SQLLite for tracking enrollments.
 
 #### 2.4. Media Service
 - **Responsibilities**: Handles video uploads, streaming, and storage of course materials.
 - **Tech Stack**: .NET Core, integrates with a CDN (e.g., Azure Media Services or AWS S3).
-- **Database**: Blob storage (Azure Blob or AWS S3).
+- **Database**: Blob storage (Azure Blob).
 
 #### 2.5. Assessment Service
 - **Responsibilities**: Manages quizzes, tests, and grading for courses.
 - **Tech Stack**: .NET Core Web API.
-- **Database**: SQL Server.
-
-#### 2.6. Notification Service
-- **Responsibilities**: Sends notifications for course updates, enrollment confirmations, and other events.
-- **Tech Stack**: .NET Core Web API, integrates with a messaging service (e.g., RabbitMQ or Azure Service Bus).
+- **Database**: SQLLite.
 
 ### 3. Frontend Application
 - **Tech Stack**: Angular
@@ -141,7 +132,7 @@ public class Course
 ```
 - **TrainerId**: Foreign key referencing the User table (Trainer role).
 - **Modules**: A course consists of multiple modules/lectures.
-- 
+
 ### Module Model
 Each course will contain multiple modules or lectures.
 ```
@@ -175,35 +166,6 @@ public class Enrollment
 - **LearnerId**: Foreign key referencing the User table (Learner role).
 - **IsCompleted**: Indicates whether the learner has completed the course.
 
-### Quiz/Assessment Model
-Each course can have quizzes for learners to complete.
-```
-public class Quiz
-{
-    public Guid Id { get; set; }
-    public string Title { get; set; }
-    public Guid CourseId { get; set; }  // Foreign key to Course
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
-    public ICollection<Question> Questions { get; set; }  // One-to-many relationship
-}
-```
-
-### Question Model
-Each quiz will have multiple questions.
-```
-public class Question
-{
-    public Guid Id { get; set; }
-    public string QuestionText { get; set; }
-    public string AnswerOptions { get; set; }  // JSON or string for multiple choices
-    public string CorrectAnswer { get; set; }
-    public Guid QuizId { get; set; }  // Foreign key to Quiz
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
-}
-```
-- **AnswerOptions**: Can be stored as a JSON array or a delimited string to represent multiple options.
   
 ### Progress Model
 Tracks the progress of learners in a particular course.
@@ -219,30 +181,6 @@ public class Progress
 }
 ```
 - **ModuleId**: Tracks progress within individual modules.
-  
-### Review Model
-Learners can leave reviews for courses.
-```
-public class Review
-{
-    public Guid Id { get; set; }
-    public Guid LearnerId { get; set; }  // Foreign key to User (Learner)
-    public Guid CourseId { get; set; }  // Foreign key to Course
-    public int Rating { get; set; }  // 1 to 5 rating
-    public string Comment { get; set; }
-    public DateTime CreatedAt { get; set; }
-}
-```
-
-### Role Model
-In case you want to manage roles separately, though it's embedded in the User model in the example above.
-```
-public class Role
-{
-    public Guid Id { get; set; }
-    public string Name { get; set; }  // Learner, Trainer, Admin
-}
-```
 
 ---
 
@@ -265,9 +203,3 @@ public class Role
 - Each course contains multiple modules.
 - A learner’s progress through each module is tracked.
 
-### Quiz and Question:
-- A course can have many quizzes, and each quiz contains many questions.
-- Each question has multiple answer options.
-
-### Review:
-- A learner can submit a review for a course.
