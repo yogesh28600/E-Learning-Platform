@@ -1,0 +1,85 @@
+<header class="header" data-header>
+  <div class="container">
+    <a routerLink="/" class="logo">
+      <img
+        src="assets/images/logo.svg"
+        width="162"
+        height="50"
+        alt="EduWeb logo"
+      />
+    </a>
+
+    <nav class="navbar" data-navbar>
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img
+            src="assets/images/logo.svg"
+            width="162"
+            height="50"
+            alt="EduWeb logo"
+          />
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <!-- <ion-icon name="close-outline" aria-hidden="true"></ion-icon> -->
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a
+            routerLink="/browse-courses"
+            class="navbar-link"
+            data-nav-link
+            *ngIf="user && user.role === 'LEARNER'"
+            >Find Courses</a
+          >
+        </li>
+        <li class="navbar-item">
+          <a
+            routerLink="/learner"
+            class="navbar-link"
+            data-nav-link
+            *ngIf="user && user.role === 'LEARNER'"
+            >My Courses</a
+          >
+        </li>
+        <li class="navbar-item">
+          <a
+            routerLink="/trainer"
+            class="navbar-link"
+            data-nav-link
+            *ngIf="user && user.role === 'TRAINER'"
+            >My Courses</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button
+        class="header-action-btn"
+        aria-label="toggle search"
+        title="Search"
+      >
+        <!-- <ion-icon name="search-outline" aria-hidden="true"></ion-icon> -->
+      </button>
+
+      <div *ngIf="user; else loginPage">
+        <button (click)="logout()" class="btn has-before">
+          <span class="span">Logout</span>
+        </button>
+      </div>
+      <ng-template #loginPage>
+        <a routerLink="/register" class="btn has-before">
+          <span class="span">Try for free</span>
+        </a>
+      </ng-template>
+      <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+        <!-- <ion-icon name="menu-outline" aria-hidden="true"></ion-icon> -->
+      </button>
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+</header>

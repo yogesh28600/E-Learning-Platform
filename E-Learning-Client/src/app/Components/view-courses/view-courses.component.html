@@ -1,0 +1,44 @@
+<div class="grid grid-cols-4 gap-16 mt-5">
+  <div *ngFor="let course of courses">
+    <div class="course-card shadow-lg shadow-slate-300">
+      <figure
+        class="card-banner img-holder"
+        style="--width: 370; --height: 220"
+      >
+        <img
+          src="{{ course.thumbnail }}"
+          width="370"
+          height="220"
+          loading="lazy"
+          alt="Build Responsive Real- World Websites with HTML and CSS"
+          class="img-cover"
+        />
+      </figure>
+
+      <div class="abs-badge">
+        <span class="span">{{ course.modules.length }} Modules</span>
+      </div>
+
+      <div class="card-content">
+        <span class="badge">{{ course.category }}</span>
+
+        <h3 class="h3">
+          <a [routerLink]="['/enroll-course', course.id]" class="card-title">{{
+            course.title
+          }}</a>
+        </h3>
+
+        <div class="wrapper">
+          <p class="rating-text">{{ course.description }}</p>
+        </div>
+        <data class="price" value="29">${{ course.price }}</data>
+        <a
+          [routerLink]="['/enroll-course', course.id]"
+          class="bg-blue-600 text-white rounded-xl px-10 py-3"
+        >
+          Enroll
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

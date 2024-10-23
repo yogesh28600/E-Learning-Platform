@@ -1,0 +1,69 @@
+<div class="p-6 mt-32">
+  <div class="flex justify-between items-center mb-8 w-full mt-5 p-5">
+    <!-- Page Title -->
+    <h1 class="text-3xl font-bold text-gray-800" *ngIf="user">
+      Welcome {{ user.firstName }},
+    </h1>
+
+    <!-- Add Course Button -->
+    <a
+      routerLink="/create-course"
+      class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"
+    >
+      Add Course
+    </a>
+  </div>
+
+  <!-- Courses List -->
+  <div
+    *ngIf="myCourses && myCourses.length > 0; else noCourses"
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+  >
+    <div
+      *ngFor="let course of myCourses"
+      class="bg-white shadow-md rounded-lg p-5 border"
+    >
+      <div class="course-card">
+        <figure
+          class="card-banner img-holder"
+          style="--width: 370; --height: 220"
+        >
+          <img
+            src="{{ course.thumbnail }}"
+            width="370"
+            height="220"
+            loading="lazy"
+            alt="Build Responsive Real- World Websites with HTML and CSS"
+            class="img-cover"
+          />
+        </figure>
+
+        <div class="abs-badge">
+          <span class="span">{{ course.modules.length }} Modules</span>
+        </div>
+
+        <div class="card-content">
+          <span class="badge">{{ course.category }}</span>
+
+          <h3 class="h3">
+            <a
+              [routerLink]="['/course-details', course.id]"
+              class="card-title"
+              >{{ course.title }}</a
+            >
+          </h3>
+
+          <div class="wrapper">
+            <p class="rating-text">{{ course.description }}</p>
+          </div>
+          <data class="price" value="29">${{ course.price }}</data>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- No Courses Message -->
+  <ng-template #noCourses>
+    <p class="text-gray-500 text-lg mt-8">You haven't added any courses yet.</p>
+  </ng-template>
+</div>

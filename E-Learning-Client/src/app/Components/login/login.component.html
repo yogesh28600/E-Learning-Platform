@@ -1,0 +1,58 @@
+<div class="container">
+  <input type="checkbox" id="check" />
+  <div class="login form">
+    <header>Login</header>
+    <form [formGroup]="loginForm" (ngSubmit)="loginUser(loginForm)">
+      <span class="text-red-400" *ngIf="isInValid">Invalid Credentials</span>
+      <input
+        type="text"
+        formControlName="Email"
+        placeholder="Enter your email"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          loginForm.controls['Email'].touched &&
+          loginForm.controls['Email'].hasError('required')
+        "
+        >Email is required</span
+      >
+
+      <input
+        type="password"
+        formControlName="PasswordHash"
+        placeholder="Enter your password"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          loginForm.controls['PasswordHash'].touched &&
+          loginForm.controls['PasswordHash'].hasError('required')
+        "
+        >Password is required</span
+      >
+      <input type="submit" class="button" value="Login" />
+    </form>
+    <div class="signup">
+      <span class="signup"
+        >Don't have an account?
+        <a routerLink="/register">Signup</a>
+      </span>
+    </div>
+  </div>
+  <div class="registration form">
+    <header>Signup</header>
+    <form action="#">
+      <input type="text" placeholder="Enter your email" />
+      <input type="password" placeholder="Create a password" />
+      <input type="password" placeholder="Confirm your password" />
+      <input type="button" class="button" value="Signup" />
+    </form>
+    <div class="signup">
+      <span class="signup"
+        >Already have an account?
+        <label for="check">Login</label>
+      </span>
+    </div>
+  </div>
+</div>

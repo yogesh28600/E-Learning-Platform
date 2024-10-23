@@ -1,0 +1,47 @@
+<div class="mt-40 p-5">
+  <p class="text-6xl font-semibold font-mono" *ngIf="user">
+    Welcome {{ user.firstName }},
+  </p>
+  <div class="p-10">
+    <h1 class="mt-5 text-mono text-4xl font-semibold">Courses for you</h1>
+    <div class="grid grid-cols-4 gap-16 mt-5">
+      <div *ngFor="let course of enrolledCourses">
+        <div class="course-card shadow-lg shadow-slate-300">
+          <figure
+            class="card-banner img-holder"
+            style="--width: 370; --height: 220"
+          >
+            <img
+              src="{{ course.thumbnail }}"
+              width="370"
+              height="220"
+              loading="lazy"
+              alt="Build Responsive Real- World Websites with HTML and CSS"
+              class="img-cover"
+            />
+          </figure>
+
+          <div class="abs-badge">
+            <span class="span">{{ course.modules.length }} Modules</span>
+          </div>
+
+          <div class="card-content">
+            <span class="badge">{{ course.category }}</span>
+
+            <h3 class="h3">
+              <a
+                [routerLink]="['/view-course', course.id]"
+                class="card-title"
+                >{{ course.title }}</a
+              >
+            </h3>
+
+            <div class="wrapper">
+              <p class="rating-text">{{ course.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

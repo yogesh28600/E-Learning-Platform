@@ -1,0 +1,38 @@
+<section class="container">
+  <form [formGroup]="moduleForm" (ngSubmit)="onSubmit(moduleForm)" class="form">
+    <header>Add Module</header>
+    <span class="text-red-400" *ngIf="isInvalid">
+      Data provided is Invalid Data</span
+    >
+    <div class="input-box">
+      <label>Module Title</label>
+      <input
+        type="text"
+        formControlName="title"
+        placeholder="Enter Module title"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          moduleForm.controls['title'].touched &&
+          moduleForm.controls['title'].hasError('required')
+        "
+        >Title is required</span
+      >
+    </div>
+
+    <div class="input-box">
+      <label>Module Video</label>
+      <input type="file" accept=".mp4" (change)="onFileChange($event)" />
+      <span
+        style="color: red"
+        *ngIf="
+          moduleForm.controls['title'].touched &&
+          moduleForm.controls['title'].hasError('required')
+        "
+        >Thumbnail is required</span
+      >
+    </div>
+    <button type="submit">Create module</button>
+  </form>
+</section>

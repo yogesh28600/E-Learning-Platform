@@ -1,0 +1,96 @@
+<div class="container">
+  <div class="login form">
+    <header>Register</header>
+    <form [formGroup]="registerForm" (ngSubmit)="registerUser(registerForm)">
+      <span class="text-red-400" *ngIf="isInValid">Invalid Data</span>
+      <!-- First Name Input -->
+      <input
+        type="text"
+        formControlName="FirstName"
+        placeholder="Enter your First Name"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          registerForm.controls['FirstName'].touched &&
+          registerForm.controls['FirstName'].hasError('required')
+        "
+        >First Name is required</span
+      >
+
+      <!-- Last Name Input -->
+      <input
+        type="text"
+        formControlName="LastName"
+        placeholder="Enter your Last Name"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          registerForm.controls['LastName'].touched &&
+          registerForm.controls['LastName'].hasError('required')
+        "
+        >Last Name is required</span
+      >
+
+      <!-- Email Input -->
+      <input
+        type="text"
+        formControlName="Email"
+        placeholder="Enter your email"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          registerForm.controls['Email'].touched &&
+          registerForm.controls['Email'].hasError('required')
+        "
+        >Email is required</span
+      >
+      <span *ngIf="userExists" class="text-red-400">
+        email Already exists please login
+      </span>
+      <!-- Password Input -->
+      <input
+        type="password"
+        formControlName="PasswordHash"
+        placeholder="Enter your password"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          registerForm.controls['PasswordHash'].touched &&
+          registerForm.controls['PasswordHash'].hasError('required')
+        "
+        >Password is required</span
+      >
+
+      <!-- Role Select -->
+      <select
+        formControlName="Role"
+        class="w-full p-5 mt-2 bg-white border-2 border-black h-16"
+      >
+        <option value="LEARNER">LEARNER</option>
+        <option value="TRAINER">TRAINER</option>
+      </select>
+      <span
+        style="color: red"
+        *ngIf="
+          registerForm.controls['Role'].touched &&
+          registerForm.controls['Role'].hasError('required')
+        "
+        >Role is required</span
+      >
+
+      <!-- Submit Button -->
+      <input type="submit" class="button" value="Register" />
+    </form>
+
+    <div class="signup">
+      <span class="signup"
+        >Already have an account?
+        <a routerLink="/login">Login</a>
+      </span>
+    </div>
+  </div>
+</div>

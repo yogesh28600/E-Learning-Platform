@@ -1,0 +1,92 @@
+<section class="container">
+  <form [formGroup]="courseForm" (ngSubmit)="onSubmit(courseForm)" class="form">
+    <header>Create Course</header>
+    <span class="text-red-400" *ngIf="isInvalid">privided data is invalid</span>
+    <div class="input-box">
+      <label>Course Title</label>
+      <input
+        type="text"
+        formControlName="title"
+        placeholder="Enter Course title"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          courseForm.controls['title'].touched &&
+          courseForm.controls['title'].hasError('required')
+        "
+        >Title is required</span
+      >
+    </div>
+    <div class="input-box">
+      <label>Description</label>
+      <textarea
+        id="description"
+        formControlName="description"
+        class="border-2 border-gray-300 rounded-lg w-full mt-5"
+        rows="4"
+        placeholder="Enter course description"
+      ></textarea>
+      <span
+        style="color: red"
+        *ngIf="
+          courseForm.controls['description'].touched &&
+          courseForm.controls['description'].hasError('required')
+        "
+        >Description is required</span
+      >
+    </div>
+    <div class="column">
+      <div class="input-box">
+        <label>Category</label>
+        <input
+          type="text"
+          formControlName="category"
+          placeholder="Enter Category"
+        />
+        <span
+          style="color: red"
+          *ngIf="
+            courseForm.controls['category'].touched &&
+            courseForm.controls['category'].hasError('required')
+          "
+          >Category is required</span
+        >
+      </div>
+      <div class="input-box">
+        <label>Price</label>
+        <input
+          type="number"
+          formControlName="price"
+          placeholder="Enter Price"
+        />
+        <span
+          style="color: red"
+          *ngIf="
+            courseForm.controls['price'].touched &&
+            courseForm.controls['price'].hasError('required')
+          "
+          >Price is required</span
+        >
+      </div>
+    </div>
+    <div class="input-box">
+      <label>Course Thumbnail</label>
+      <input
+        id="thumbnail"
+        type="file"
+        accept=".png"
+        (change)="onFileChange($event)"
+      />
+      <span
+        style="color: red"
+        *ngIf="
+          courseForm.controls['thumbnail'].touched &&
+          courseForm.controls['thumbnail'].hasError('required')
+        "
+        >Thumbnail is required</span
+      >
+    </div>
+    <button type="submit">Create course</button>
+  </form>
+</section>
